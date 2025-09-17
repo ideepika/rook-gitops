@@ -15,7 +15,7 @@ spec:
         releaseName: rook-ceph-operator
         valueFiles:
           - $values/dev/argocd/values/rook-operator.yaml
-    - repoURL: https://github.com/your-username/infrastructure.git
+    - repoURL: https://github.com/ideepika/rook-gitops.git
       targetRevision: HEAD
       ref: values
   destination:

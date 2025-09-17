@@ -17,7 +17,7 @@ spec:
         releaseName: rook-ceph-cluster
         valueFiles:
           - $values/dev/argocd/values/rook-cluster.yaml
-    - repoURL: https://github.com/your-username/infrastructure.git
+    - repoURL: https://github.com/ideepika/rook-gitops.git
       targetRevision: HEAD
       ref: values
   destination:
